@@ -30,9 +30,104 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!-- 8 am block -->
+      <div id="hour8" class="row" time-block>
+        <div class="col-md-1 hour">8 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 9 am block -->
+      <div id="hour9" class="row" time-block>
+        <div class="col-md-1 hour">9 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 10 am block -->
+      <div id="hour10" class="row" time-block>
+        <div class="col-md-1 hour">10 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 11 am block -->
+      <div id="hour11" class="row" time-block>
+        <div class="col-md-1 hour">11 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 12 am block -->
+      <div id="hour12" class="row" time-block>
+        <div class="col-md-1 hour">12 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 1 pm block -->
+      <div id="hour13" class="row" time-block>
+        <div class="col-md-1 hour">1 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 2 pm block -->
+      <div id="hour14" class="row" time-block>
+        <div class="col-md-1 hour">2 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 3 pm block -->
+      <div id="hour15" class="row" time-block>
+        <div class="col-md-1 hour">3 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 4 pm block -->
+      <div id="hour16" class="row" time-block>
+        <div class="col-md-1 hour">4 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- 5 pm block -->
+      <div id="hour17" class="row" time-block>
+        <div class="col-md-1 hour">5 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
     </div>
-
+    <!-- 5 pm block -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.3/dayjs.min.js"
+      integrity="sha512-Ot7ArUEhJDU0cwoBNNnWe487kjL5wAOsIYig8llY/l0P2TUFwgsAHVmrZMHsT8NGo+HwkjTJsNErS6QqIkBxDw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.3/plugin/weekday.min.js"
+      integrity="sha512-+EJ/Ed/UbhfSypwkMnTIxgJ3izeQNc5655zPTlVqcgJ4Zd4K++JYUyg4Jy5rnKX9MfoIyfXJsu5N30MRHnShYw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      dayjs.extend(window.dayjs_weekday);
+    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
