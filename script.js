@@ -17,11 +17,11 @@ $(document).ready(function () {
   function timeTracker() {
     // get current number of hours
     var timeNow = dayjs().hour();
-
+    console.log("string");
     // loop over time blocks
     $(".time-block").each(function () {
       var blockTime = parseInt($(this).attr("id").split("hour")[1]);
-
+      console.log("string");
       // to check the time and add the classes for background indicators
 
       if (blockTime < timeNow) {
